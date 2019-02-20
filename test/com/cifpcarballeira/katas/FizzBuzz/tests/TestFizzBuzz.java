@@ -24,9 +24,16 @@ public class TestFizzBuzz {
     }
     
     @Test
-    public void testdevuelve3() {
+    public void testdevuelveF() {
         FizzBuzz fb = new FizzBuzz();
         String result = fb.getFizzBuzz(3);
         assertEquals("Fizz", result);
+    }
+    
+     @Test
+    public void testdevuelveB() {
+        FizzBuzz fb = new FizzBuzz();
+        String result = fb.getFizzBuzz(5);
+        assertEquals("Buzz", result);
     }
 }

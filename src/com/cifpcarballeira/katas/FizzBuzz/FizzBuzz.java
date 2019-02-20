@@ -3,13 +3,14 @@ package com.cifpcarballeira.katas.FizzBuzz;
 public class FizzBuzz {
 
     public String getFizzBuzz(int num) {
-        if (num%3 == 0) {
-            return "Fizz";
+        
+        if (num%5==0) {
+        return "Buzz";
         }
-        if (num == 2) {
-            return "2";
+        if (num % 3 == 0) {
+            return "Fizz";
         } else {
-            return "1";
+            return Integer.toString(num);
         }
     }
 }
