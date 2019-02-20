@@ -23,5 +23,10 @@ public class TestFizzBuzz {
         assertEquals("2", result);
     }
     
-    
+    @Test
+    public void testdevuelve3() {
+        FizzBuzz fb = new FizzBuzz();
+        String result = fb.getFizzBuzz(3);
+        assertEquals("Fizz", result);
+    }
 }
